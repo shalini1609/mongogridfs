@@ -1,0 +1,22 @@
+MONGO_APPCENTER_URL : "mongodb://127.0.0.1:29454"
+CASE_STATUS : "Closed Cancel"
+CASE_LIMIT : 100
+HOST_IP : "12.201.132.48"
+HOST_PORT :"80"
+HOST_USERNAME : "ubuntu"
+HOST_PASSWORD : "ubuntu"
+MONGO_DB: "appveen-fileNet"
+HOST_PATH: "/home/ubuntu"
+BUCKET_NAME: "caseDocuments"
+
+
+MONGO_APPCENTER_URL----> is the mongo db connection of odp pointing to appcenter of DS
+CASE_STATUS -------> Status of the case to be queired it should be seperated with space
+CASE_LIMIT --------> No of case files to downloaded in a single api hit
+HOST_IP -----------> Server ip address where the file should be transfered
+HOST_PORT----------> Server Port
+HOST_USERNAME------> Server username
+HOST_PASSWORD------> Server password if present
+MONGO_DB-----------> ODP App name in mongodb  database name convention 
+HOST_PATH----------> Server path where you mount the files
+BUCKET_NAME--------> Collection name from where we download files it is DS

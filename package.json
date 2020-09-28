@@ -1,0 +1,22 @@
+{
+  "name": "ql-excide-filenet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "log4js": "^6.3.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.6",
+    "request": "^2.88.2",
+    "save": "^2.4.0",
+    "ssh2": "^0.8.9"
+  }
+}
